@@ -1,7 +1,7 @@
 import { Command } from "@oclif/core";
-// import { action } from "@oclif/core/ux"
-import ux from "@oclif/core/ux"
-const { action } = ux.ux
+import { action } from "@oclif/core/ux"
+// import ux from "@oclif/core/ux"
+// const { action } = ux.ux
 
 export default class Hello extends Command {
   public async run(): Promise<void> {
